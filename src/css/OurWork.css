@@ -1,0 +1,32 @@
+.our-work-page {
+  padding: 2rem;
+}
+
+.our-work-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.our-work-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 1rem;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #444;
+}

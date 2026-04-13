@@ -1,0 +1,119 @@
+.about {
+  padding: 40px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.vision,
+.story,
+.team,
+.values {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.vision h1,
+.story h2,
+.team h2,
+.values h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  color: #2e86c1;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 8px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.team-card h3 {
+  margin: 15px 0 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.team-card p {
+  padding: 0 10px 15px;
+  font-size: 0.9rem;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.legal {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.legal h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  color: #2e86c1; /* same as other headings */
+}
+
+.legal p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.volunteers {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.volunteers h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  color: #2e86c1;
+}
+
+.volunteer-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.volunteer-card {
+  background: #fff;
+  border-radius: 8px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.volunteer-card h3 {
+  margin: 10px 0 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.volunteer-card p {
+  font-size: 0.9rem;
+  color: #555;
+}

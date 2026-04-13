@@ -1,0 +1,101 @@
+.admin {
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.admin h1 {
+  text-align: center;
+  color: #2e86c1;
+  margin-bottom: 50px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 60px auto; /* big gap between sections */
+  width: 90%; /* make sections wider */
+  max-width: 1000px; /* cap width for readability */
+}
+
+.card h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #2e86c1;
+  margin-bottom: 25px;
+}
+
+.messages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.messages li {
+  background: #f9f9f9;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.volunteers form,
+.new-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+input,
+textarea,
+button {
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #2e86c1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #1b4f72;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end; /* push content to the right */
+  align-items: center;
+  gap: 1rem; /* spacing between buttons and text */
+  margin-top: 1.5rem;
+}
+
+.pagination button {
+  background-color: #007bff; /* example styling */
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
