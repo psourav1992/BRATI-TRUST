@@ -23,9 +23,6 @@ jobs:
       - name: Build React app
         run: CI=false npm run build
 
-      - name: Build React app
-        run: npm run build
-
       - name: Deploy to S3
         run: aws s3 sync build/ s3://brati-s3-bucket --delete
         env:
