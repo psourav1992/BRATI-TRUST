@@ -41,10 +41,6 @@
       "last 1 safari version"
     ]
   },
-  
-    "proxy": "http://localhost:8080"
-  
-  
-
-  
+  "proxy": "http://localhost:8080",
+  "homepage": "http://brati-s3-bucket.s3-website.ap-south-2.amazonaws.com/"
 }
